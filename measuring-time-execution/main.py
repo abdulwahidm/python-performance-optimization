@@ -4,8 +4,8 @@ print("\nHello...\n")
 
 def long_time():
     x = 0
-    for j in range(0, 10000):
-        for i in range(0, 10000):
+    for j in range(0, 1_000):
+        for i in range(0, 1_000):
             x += 1
     return x        
 
